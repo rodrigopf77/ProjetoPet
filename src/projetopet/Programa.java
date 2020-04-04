@@ -5,7 +5,7 @@ public class Programa {
     public static void main(String[] args) {
         
         Dono dono = new Dono();
-        dono.nomeDono = "Rodrigo";
+        dono.setNomeDono("Rodrigo");
         dono.telefone = "419999-9999";
         
         Dono dono2 = new Dono();
